@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Theme Switcher</title>
+
+    <style>
+      body {
+        font-family: Arial;
+        background-color: white;
+        color: black;
+      }
+
+     .dark {    
+        background-color: black;
+        color: white; /*typo*/
+      }
+
+      button {
+        padding: 10px;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Theme Switcher</h1>
+
+    <button id="toggle">Toggle Theme</button>
+
+    <script>
+      const button = document.getElementById("toggle");/*typo missing e*/
+       const body = document.querySelector("body");  /*missung y*/
+
+      button.addEventListener("click", toggleTheme);
+
+      function toggleTheme() {   // misiing ()
+        body.classList.toggle("dark");
+      }
+    </script>
+  </body>
+</html>

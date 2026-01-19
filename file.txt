@@ -1,0 +1,6 @@
+css:
+    typo was whit --> wihte
+script:
+    typo was toggl -->toggle
+    typo was bod  --> body
+    missing () in the function difining 
